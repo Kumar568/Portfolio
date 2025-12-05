@@ -12,7 +12,8 @@ export default defineConfig({
 
       // (Optional) Keep your old ones
       'portfolio-1-auke.onrender.com',
-      'portfolio-2-hubu.onrender.com'
+      'portfolio-2-hubu.onrender.com',
+      'portfolio-3-d0ku.onrender.com'
     ]
   }
 })
