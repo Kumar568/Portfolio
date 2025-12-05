@@ -6,6 +6,13 @@ export default defineConfig({
   preview: {
     host: true,
     port: 8080,
-    allowedHosts: ['portfolio-1-auke.onrender.com']
+    allowedHosts: [
+      // Allow all Render domains
+      '*.onrender.com',
+
+      // (Optional) Keep your old ones
+      'portfolio-1-auke.onrender.com',
+      'portfolio-2-hubu.onrender.com'
+    ]
   }
 })
